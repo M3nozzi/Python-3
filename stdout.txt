@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1 -- /usr/local/opt/python@3.8/bin/python3.8
+cachedir: .pytest_cache
+rootdir: /Users/menozzi/codenation/python-7
+collecting ... collected 1 item
+
+test_main.py::test_get_temperature_by_lat_lng PASSED                     [100%]
+
+============================== 1 passed in 0.17s ===============================
