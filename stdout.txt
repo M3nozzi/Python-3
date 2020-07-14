@@ -6,4 +6,12 @@ collecting ... collected 1 item
 
 test_main.py::test_get_temperature_by_lat_lng PASSED                     [100%]
 
-============================== 1 passed in 0.17s ===============================
+=============================== warnings summary ===============================
+/usr/local/lib/python3.8/site-packages/_pytest/junitxml.py:417
+  /usr/local/lib/python3.8/site-packages/_pytest/junitxml.py:417: PytestDeprecationWarning: The 'junit_family' default value will change to 'xunit2' in pytest 6.0.
+  Add 'junit_family=xunit1' to your pytest.ini file to keep the current format in future versions of pytest and silence this warning.
+    _issue_warning_captured(deprecated.JUNIT_XML_DEFAULT_FAMILY, config.hook, 2)
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+------ generated xml file: /Users/menozzi/codenation/python-7/output.xml -------
+========================= 1 passed, 1 warning in 0.17s =========================
